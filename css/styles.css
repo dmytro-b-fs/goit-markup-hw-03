@@ -83,11 +83,14 @@ h3 {
 header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container,
-.logo-nav-container {
+.header-container{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.logo-nav-container {
+  display: flex;
+  align-items: center;
 }
 .nav-list {
   display: flex;
