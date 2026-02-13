@@ -15,7 +15,9 @@ p,
 li {
   margin: 0;
 }
-
+img { 
+  display: block; 
+}
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -35,8 +37,7 @@ button {
 }
 .container {
   margin: auto;
-  box-sizing: content-box;
-  padding: 0 156px;
+  padding: 0 15px;
   max-width: 1158px;
 }
 .logo {
@@ -163,14 +164,13 @@ header {
   cursor: pointer;
   letter-spacing: 0.04em;
   line-height: 1.5;
-  height: 56px;
-  width: 169px;
   border: 0;
   border-radius: 4px;
+  padding: 16px 32px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .hero-order-btn:hover,
-.hero-order-btn:focus-visible {
+.hero-order-btn:focus {
   background-color: #404bbf;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
@@ -204,6 +204,7 @@ header {
 }
 .team-member {
   background-color: #ffffff;
+  max-width: 264px;
   border-radius: 0 0 4px 4px;
   box-shadow:
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -225,6 +226,9 @@ header {
   row-gap: 48px;
   column-gap: 24px;
   padding-top: 72px;
+}
+.portfolio-item{
+  max-width: 360px;
 }
 .portfolio-card-content {
   border-bottom: 1px solid #e7e9fc;
