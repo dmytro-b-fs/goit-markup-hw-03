@@ -37,6 +37,7 @@ button {
   margin: auto;
   box-sizing: content-box;
   padding: 0 156px;
+  max-width: 1158px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
