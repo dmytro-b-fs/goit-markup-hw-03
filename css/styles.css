@@ -194,6 +194,7 @@ header {
 /* TEAM section*/
 .team-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   align-items: center;
   padding-top: 72px;
